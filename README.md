@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Typing SVG animé -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=000091&center=true&vCenter=true&width=900&lines=%F0%9F%94%91+Login+s%C3%A9curis%C3%A9+PHP;8+correctifs+OWASP+int%C3%A9gr%C3%A9s;Anti-SQLi+%C2%B7+Anti-CSRF+%C2%B7+Anti-bruteforce;Rate-limit+%C2%B7+Timing-safe+%C2%B7+Session+timeout" alt="Typing SVG" />
+ <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF10F0&center=true&vCenter=true&width=900&lines=%F0%9F%94%91+Login+s%C3%A9curis%C3%A9+PHP;8+correctifs+OWASP+int%C3%A9gr%C3%A9s;Anti-SQLi+%C2%B7+Anti-CSRF+%C2%B7+Anti-bruteforce;Rate-limit+%C2%B7+Timing-safe+%C2%B7+Session+timeout" alt="Typing SVG" />
 
 <br><br>
 
