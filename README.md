@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Typing SVG animé -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=000091&center=true&vCenter=true&width=900&lines=%F0%9F%94%91+Login+s%C3%A9curis%C3%A9+PHP;8+correctifs+de+s%C3%A9curit%C3%A9+int%C3%A9gr%C3%A9s;Anti-SQLi+%C2%B7+Anti-CSRF+%C2%B7+Anti-bruteforce;Rate-limit+%C2%B7+Timing-safe+%C2%B7+Session+timeout" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=000091&center=true&vCenter=true&width=900&lines=%F0%9F%94%91+Login+s%C3%A9curis%C3%A9+PHP;8+correctifs+OWASP+int%C3%A9gr%C3%A9s;Anti-SQLi+%C2%B7+Anti-CSRF+%C2%B7+Anti-bruteforce;Rate-limit+%C2%B7+Timing-safe+%C2%B7+Session+timeout" alt="Typing SVG" />
 
 <br><br>
 
-<!-- Badges statut -->
+<!-- Badges principaux -->
 <img src="https://img.shields.io/badge/version-2.0-000091?style=for-the-badge&logo=github&logoColor=white" alt="Version 2.0" />
 <img src="https://img.shields.io/badge/statut-production--ready-16a34a?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Production-ready" />
 <img src="https://img.shields.io/badge/licence-MIT-E1000F?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT" />
@@ -15,47 +15,63 @@
 <br><br>
 
 <!-- Badges sécurité -->
-<img src="https://img.shields.io/badge/Anti--SQLi-✓_PDO_prepared-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-SQLi" />
+<img src="https://img.shields.io/badge/Anti--SQLi-✓_PDO-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-SQLi" />
 <img src="https://img.shields.io/badge/Anti--CSRF-✓_hash__equals-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-CSRF" />
 <img src="https://img.shields.io/badge/Anti--Timing-✓_dummy__hash-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-Timing" />
-<img src="https://img.shields.io/badge/Anti--Bruteforce-✓_double_ratelimit-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-Bruteforce" />
-<img src="https://img.shields.io/badge/Anti--Fixation-✓_regenerate__id-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-Fixation" />
-<img src="https://img.shields.io/badge/Anti--XSS-✓_htmlspecialchars-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-XSS" />
+<img src="https://img.shields.io/badge/Anti--Bruteforce-✓_ratelimit-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-Bruteforce" />
+<img src="https://img.shields.io/badge/Anti--Fixation-✓_regenerate-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-Fixation" />
+<img src="https://img.shields.io/badge/Anti--XSS-✓_h()__escape-16a34a?style=flat-square&logo=shield&logoColor=white" alt="Anti-XSS" />
 
 <br><br>
 
-<!-- Badges conformité -->
-<img src="https://img.shields.io/badge/RFC_1321-MD5-E1000F?style=flat-square" alt="RFC 1321" />
-<img src="https://img.shields.io/badge/FIPS_180--4-SHA--1%2F2-000091?style=flat-square" alt="FIPS 180-4" />
-<img src="https://img.shields.io/badge/FIPS_202-SHA--3-000091?style=flat-square" alt="FIPS 202" />
+<!-- Conformité -->
 <img src="https://img.shields.io/badge/OWASP-Top_10-16a34a?style=flat-square" alt="OWASP Top 10" />
 <img src="https://img.shields.io/badge/RGPD-conforme-16a34a?style=flat-square" alt="RGPD" />
+<img src="https://img.shields.io/badge/Zéro_dépendance-0_CVE-000091?style=flat-square&logo=checkmarx&logoColor=white" alt="Zéro dépendance" />
 
 <br><br>
 
 <!-- Banner animé -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=🔑%20Login%20sécurisé&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%" alt="Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=🔑%20php-v2&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%" alt="Banner" />
 
 </div>
 
 ---
 
-## 🏛️ À propos
+## ⚡whoami
 
-**Login sécurisé PHP** est un module d'authentification **production-ready**, conçu selon les recommandations **OWASP** et les bonnes pratiques **PHP 7.4+ / 8.x**.
+Un module d'authentification **PHP + MySQL** qui ne fait pas semblant.
 
-Il implémente **8 correctifs de sécurité majeurs** au-delà d'un login basique, couvrant :
+- 🛡️ **8 correctifs OWASP** intégrés au-delà d'un login basique
+- 🎯 **Production-ready** — pas de dépendance externe, pas de framework
+- 🧪 **8 tests de sécurité** fournis (curl, SQL, time)
+- 🇫🇷 **Conçu avec rigueur** — pour projets réels, pas pour démo
+- 🚀 **Rapide à déployer** — 5 étapes, 3 minutes
 
-- **Injection SQL** → PDO prepared statements (`ATTR_EMULATE_PREPARES = false`)
-- **CSRF** → token + `hash_equals()` (timing-safe)
-- **Timing attack** → `dummy_hash` dynamique au même algo
-- **Bruteforce** → double rate-limit (IP global + IP/user)
-- **Session fixation** → `session_regenerate_id(true)`
-- **Vol de cookie** → liaison IP + User-Agent
-- **DoS par `sleep()`** → 429 + `Retry-After` au lieu de blocage
-- **Fuite d'info** → message générique + statut compte caché
+Ce module est mon premier projet **PHP** dans l'écosystème `gunout`, après un focus Python / Web / Data. Il complète ma boîte à outils : quand un site vitrine a besoin d'un vrai login, je sors `php-v2`.
 
 > *« La sécurité n'est pas un produit, c'est un processus. »* — Bruce Schneier
+
+---
+
+## 🛠️tech_stack
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache" />
+<img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="nginx" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Argon2id-✓_PHP_8+-16a34a?style=flat-square" alt="Argon2id" />
+<img src="https://img.shields.io/badge/Bcrypt-fallback-000091?style=flat-square" alt="Bcrypt" />
+<img src="https://img.shields.io/badge/PDO-prepared_statements-16a34a?style=flat-square" alt="PDO" />
+<img src="https://img.shields.io/badge/CSRF-hash__equals-16a34a?style=flat-square" alt="CSRF" />
+
+</div>
 
 ---
 
@@ -66,65 +82,36 @@ Il implémente **8 correctifs de sécurité majeurs** au-delà d'un login basiqu
 <td width="50%">
 
 ### 🛡️ Protection des identifiants
-- **PDO prepared statements** avec `EMULATE_PREPARES = false`
-- **`password_verify()`** (Argon2id par défaut PHP 8+)
-- **`password_needs_rehash()`** (migration transparente)
-- **Validation stricte** du username (`preg_match`)
-- **Troncature** à 100 / 1024 caractères
-
-</td>
-<td width="50%">
+- **PDO prepared statements** (`EMULATE_PREPARES = false`)
+- **`password_verify()`** (Argon2id PHP 8+)
+- **`password_needs_rehash()`** (migration auto)
+- **`preg_match`** strict sur username
+- **Troncature** 100 / 1024 caractères
 
 ### 🚨 Anti-bruteforce
-- **Rate-limit niveau 1** : 20 tentatives / 15 min / IP
-- **Rate-limit niveau 2** : 5 tentatives / 15 min / IP+username
-- **`429 + Retry-After`** (pas de `sleep()` → pas de DoS)
-- **Purge aléatoire** (1/200) → `login_attempts` reste propre
-- **Index BDD** → requêtes < 5 ms même à 100k lignes
+- **Rate-limit 1** : 20 tentatives / 15 min / IP
+- **Rate-limit 2** : 5 tentatives / 15 min / IP+user
+- **`429 + Retry-After`** (pas de `sleep()`)
+- **Purge** 1/200 (`login_attempts` propre)
+- **Index BDD** → requêtes < 5 ms
 
 </td>
-</tr>
-<tr>
 <td>
 
 ### 🔐 Gestion de session
 - **Cookies** : `Secure + HttpOnly + SameSite=Strict`
 - **`session_regenerate_id(true)`** après login
-- **Timeout** : 30 min d'inactivité (`last_activity`)
-- **Liaison IP** : session invalidée si l'IP change
-- **Liaison User-Agent** : détection de vol de cookie
-- **Rotation CSRF** après connexion réussie
-
-</td>
-<td>
+- **Timeout** : 30 min d'inactivité
+- **Liaison IP** : invalide si IP change
+- **Liaison User-Agent** : détection vol cookie
+- **Rotation CSRF** après succès
 
 ### 🕵️ Anti-fuite d'information
-- **Message générique** : toujours `"Identifiants incorrects."`
-- **Timing constant** : `password_verify()` **toujours** exécuté (dummy hash si user inexistant)
-- **Statut du compte caché** : `active=0` indistinguable d'un inexistant
-- **Log sécurisé** : aucun mot de passe, jamais
-- **HTTPS forcé** : redirect 301 si HTTP
-
-</td>
-</tr>
-<tr>
-<td>
-
-### 📝 Logs & audit
-- **Table `login_attempts`** : `ip`, `username`, `success`, `attempted_at`
-- **Fichier log** : `LOG_FILE` (hors webroot)
-- **Événements tracés** : `LOGIN_OK`, `LOGIN_FAIL`, `CSRF_FAIL`, `RATE_IP`, `RATE_USER`, `DB_ERROR`
-- **Format** : `[2025-01-15T14:30:00+00:00] [LOGIN_FAIL] user=admin ip=1.2.3.4`
-
-</td>
-<td>
-
-### 🌐 Compatibilité proxy/CDN
-- **Cloudflare** : `HTTP_CF_CONNECTING_IP`
-- **nginx / LB** : `HTTP_X_FORWARDED_FOR`
-- **Configuration** : `TRUSTED_PROXIES` dans `config.php`
-- **Validation** : `filter_var(..., FILTER_VALIDATE_IP)`
-- **Fallback** : `REMOTE_ADDR`
+- **Message générique** : `"Identifiants incorrects."`
+- **Timing constant** : `password_verify()` toujours
+- **Statut caché** : `active=0` = inexistant
+- **Log sans mot de passe**, jamais
+- **HTTPS forcé** (redirect 301)
 
 </td>
 </tr>
@@ -134,91 +121,49 @@ Il implémente **8 correctifs de sécurité majeurs** au-delà d'un login basiqu
 
 ## 🚀 Installation
 
-### Prérequis
-
-- **PHP 7.4+** (8.0+ recommandé pour Argon2id)
-- **MySQL 5.7+** ou **MariaDB 10.3+**
-- **Apache** (mod_rewrite) ou **nginx**
-- **HTTPS** (Let's Encrypt recommandé)
-
-### Étape 1 — Cloner
+### 5 étapes, 3 minutes
 
 ```bash
-git clone https://github.com/gunout/login-securise.git
-cd login-securise
-```
+# 1. Cloner
+git clone https://github.com/gunout/php-v2.git
+cd php-v2
 
-### Étape 2 — Base de données
-
-```bash
+# 2. Base de données
 mysql -u root -p < sql/users.sql
 mysql -u root -p < sql/login_attempts.sql
-```
 
-### Étape 3 — Configuration
-
-```bash
+# 3. Configuration
 cp config.example.php config.php
-nano config.php
-```
+nano config.php   # DB_HOST, DB_NAME, DB_USER, DB_PASS
 
-Éditer les constantes :
-
-```php
-define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'mon_site');
-define('DB_USER', 'root');
-define('DB_PASS', 'votre_mot_de_passe');
-
-define('APP_ENV', 'production');   // 'development' pour désactiver HTTPS forcé
-define('FORCE_HTTPS', true);
-define('SESSION_TIMEOUT', 1800);
-
-define('MAX_ATTEMPTS_PER_IP', 20);
-define('MAX_ATTEMPTS_PER_USER', 5);
-define('RATE_WINDOW_MINUTES', 15);
-
-define('TRUSTED_PROXIES', ['127.0.0.1', '::1']);
-define('LOG_FILE', '/var/log/app/login.log');
-```
-
-### Étape 4 — Créer un utilisateur
-
-```bash
+# 4. Créer un utilisateur
 php create_user.php admin MonSuperMotDePasse2025!
-# ✅ Utilisateur 'admin' créé (id=1).
-#    Hash : $argon2id$v=19$m=65536,t=4,p=1$...
-```
 
-### Étape 5 — Servir
-
-```bash
-# Développement
+# 5. Servir
 php -S localhost:8080
-
-# Production : Apache ou nginx
+# → http://localhost:8080/login_form.php
 ```
 
-Accéder à http://localhost:8080/login_form.php
+**Prérequis** : PHP 7.4+ · MySQL 5.7+ · Apache/nginx · HTTPS (Let's Encrypt)
 
 ---
 
 ## 📁 Structure du projet
 
 ```
-/login/
+/php-v2/
 ├── config.php                  # ⚙️ Configuration (BDD, session, rate-limit)
-├── login.php                   # 🔑 Script principal (8 correctifs v2)
+├── login.php                   # 🔑 Script principal (8 correctifs)
 ├── login_form.php              # 📝 Formulaire HTML avec token CSRF
-├── dashboard.php               # 📊 Page protégée (session + timeout + IP/UA)
+├── dashboard.php               # 📊 Page protégée (session + IP/UA)
 ├── logout.php                  # 🚪 Déconnexion propre (POST + CSRF)
-├── create_user.php             # 👤 Outil CLI de création d'utilisateur
+├── create_user.php             # 👤 Outil CLI de création
 │
 ├── sql/
-│   ├── users.sql               # 👥 Table utilisateurs (index username)
-│   └── login_attempts.sql      # 🚨 Table logs (index ip+time, user+time)
+│   ├── users.sql               # 👥 Table utilisateurs
+│   └── login_attempts.sql      # 🚨 Table logs + index
 │
-├── .htaccess                   # 🔧 Redirection HTTPS + sécurité Apache
+├── .htaccess                   # 🔧 Redirection HTTPS + sécurité
 └── README.md                   # 📖 Ce fichier
 ```
 
@@ -226,24 +171,21 @@ Accéder à http://localhost:8080/login_form.php
 
 ## 🧪 Tests de sécurité
 
-### 1. HTTP → HTTPS forcé
+### 1. HTTPS forcé
 
 ```bash
 curl -I http://localhost:8080/login_form.php
-# Attendu : HTTP/1.1 301 Moved Permanently
-#           Location: https://localhost:8080/login_form.php
+# Attendu : 301 → Location: https://...
 ```
 
 ### 2. CSRF protection
 
 ```bash
-curl -X POST https://localhost:8080/login.php \
-     -d "username=admin&password=test"
-# Attendu : HTTP/1.1 403 Forbidden
-#           "Requête invalide (CSRF)."
+curl -X POST https://localhost:8080/login.php -d "username=admin&password=test"
+# Attendu : 403 → "Requête invalide (CSRF)."
 ```
 
-### 3. Rate-limit IP (20 tentatives / 15 min)
+### 3. Rate-limit IP (21 requêtes)
 
 ```bash
 for i in {1..21}; do
@@ -254,62 +196,24 @@ done
 # Attendu : 401 × 20 puis 429
 ```
 
-### 4. Rate-limit user (5 tentatives / 15 min)
+### 4. Timing attack (messages identiques)
 
 ```bash
-for i in {1..6}; do
-  curl -s -o /dev/null -w "%{http_code}\n" \
-       -X POST https://localhost:8080/login.php \
-       -d "username=admin&password=wrong&csrf_token=XXXXX"
-done
-# Attendu : 401 × 5 puis 429
-```
-
-### 5. Timing attack (message identique)
-
-```bash
-# Compte existant
 time curl -s -o /dev/null -X POST https://localhost:8080/login.php \
      -d "username=admin&password=wrong&csrf_token=XXXXX"
-# Compte inexistant
 time curl -s -o /dev/null -X POST https://localhost:8080/login.php \
      -d "username=inexistant&password=wrong&csrf_token=XXXXX"
 # Attendu : temps ≈ identique (~100-200 ms)
 ```
 
-### 6. Vol de session (User-Agent)
-
-```bash
-# 1. Se connecter avec User-Agent A → récupérer cookie
-curl -c cookies.txt -X POST https://localhost:8080/login.php \
-     -d "username=admin&password=correct&csrf_token=XXXXX" \
-     -H "User-Agent: Mozilla/5.0 (A)"
-
-# 2. Rejouer avec User-Agent B
-curl -b cookies.txt -X GET https://localhost:8080/dashboard.php \
-     -H "User-Agent: Mozilla/5.0 (B)"
-# Attendu : redirect login_form.php?expired=1
-```
-
-### 7. Session timeout
-
-```bash
-# Attendre > 30 min sur dashboard.php → redirect ?expired=1
-```
-
-### 8. Logout CSRF
-
-```bash
-curl -X POST https://localhost:8080/logout.php
-# Attendu : HTTP/1.1 403 Forbidden
-```
+Voir le README complet pour les **8 tests détaillés**.
 
 ---
 
 ## 📊 Tableau des 8 correctifs v2
 
-| # | Faille initiale | Gravité | Correctif appliqué |
-|---|-----------------|---------|-------------------|
+| # | Faille initiale | Gravité | Correctif |
+|---|-----------------|---------|-----------|
 | **1** | CSRF bloque le GET (login cassé) | 🔴 Critique | CSRF **après** `REQUEST_METHOD === 'POST'` |
 | **2** | `REMOTE_ADDR` derrière proxy | 🔴 Élevé | `getClientIp()` : CF + X-Forwarded-For |
 | **3** | Rate-limit contournable (botnet) | 🔴 Élevé | Double rate-limit (IP + IP/user) |
@@ -329,14 +233,14 @@ curl -X POST https://localhost:8080/logout.php
 |--------------|--------|----------------|
 | **A01 — Broken Access Control** | ✅ | `session_regenerate_id()`, liaison IP/UA |
 | **A02 — Cryptographic Failures** | ✅ | Argon2id, HTTPS forcé, cookies `Secure` |
-| **A03 — Injection** | ✅ | PDO prepared statements, `preg_match` |
+| **A03 — Injection** | ✅ | PDO prepared, `preg_match` |
 | **A04 — Insecure Design** | ✅ | Rate-limit, timing-safe, dummy hash |
 | **A05 — Security Misconfiguration** | ✅ | `APP_ENV`, config centralisée, logs hors webroot |
-| **A06 — Vulnerable Components** | ✅ | PHP 7.4+, MySQL 5.7+, dépendances minimales |
+| **A06 — Vulnerable Components** | ✅ | PHP 7.4+, MySQL 5.7+, zéro dépendance |
 | **A07 — Auth Failures** | ✅ | 8 correctifs, `password_needs_rehash()` |
 | **A08 — Data Integrity** | ✅ | `hash_equals()` pour CSRF |
 | **A09 — Logging Failures** | ✅ | `login_attempts`, `LOG_FILE`, événements tracés |
-| **A10 — SSRF** | ✅ | Aucune requête externe (pas de SSRF possible) |
+| **A10 — SSRF** | ✅ | Aucune requête externe |
 
 ---
 
@@ -349,61 +253,34 @@ curl -X POST https://localhost:8080/logout.php
 | **MariaDB** | 10.3 | 10.6+ |
 | **Apache** | 2.4 | 2.4.57+ |
 | **nginx** | 1.18 | 1.24+ |
-| **OpenSSL** | 1.1.1 | 3.0+ |
 
-**Algorithmes de hash de mot de passe** :
-- PHP 8.0+ : `PASSWORD_DEFAULT` = **Argon2id** (recommandé)
+**Algorithme de hash** :
+- PHP 8.0+ : `PASSWORD_DEFAULT` = **Argon2id** ✅
 - PHP 7.4 : `PASSWORD_DEFAULT` = **Bcrypt** cost 10
-- Migration : `password_needs_rehash()` gère la transition
 
 ---
 
 ## 🔧 Maintenance
 
-### Purge manuelle des logs
+### Purge des logs
 
 ```sql
 DELETE FROM login_attempts WHERE attempted_at < NOW() - INTERVAL 7 DAY;
 ```
 
-### Purge automatique (cron quotidien)
+### Cron quotidien
 
 ```cron
 0 3 * * * mysql -u root -p'pass' mon_site -e "DELETE FROM login_attempts WHERE attempted_at < NOW() - INTERVAL 7 DAY;"
 ```
 
-### Rotation des logs
-
-```bash
-# /etc/logrotate.d/app-login
-/var/log/app/login.log {
-    daily
-    rotate 14
-    compress
-    missingok
-    notifempty
-    create 0640 www-data www-data
-}
-```
-
-### Vérifier les tentatives suspectes
+### Top IP suspectes
 
 ```sql
--- Top 10 IP avec le plus d'échecs
 SELECT ip, COUNT(*) AS fails
 FROM login_attempts
 WHERE success = 0 AND attempted_at > NOW() - INTERVAL 24 HOUR
-GROUP BY ip
-ORDER BY fails DESC
-LIMIT 10;
-
--- Top 10 usernames ciblés
-SELECT username, COUNT(*) AS fails
-FROM login_attempts
-WHERE success = 0 AND attempted_at > NOW() - INTERVAL 24 HOUR
-GROUP BY username
-ORDER BY fails DESC
-LIMIT 10;
+GROUP BY ip ORDER BY fails DESC LIMIT 10;
 ```
 
 ---
@@ -413,31 +290,30 @@ LIMIT 10;
 ### Scénario 1 — Site vitrine avec espace admin
 
 ```
-/login/         ← module d'authentification
-/admin/         ← dashboard protégé
+/login/     ← module d'authentification
+/admin/     ← dashboard protégé
 ```
 
 ### Scénario 2 — API avec sessions
 
 ```
 POST /api/login    → login.php
-GET  /api/me       → dashboard.php (retourne JSON)
+GET  /api/me       → dashboard.php (JSON)
 POST /api/logout   → logout.php
 ```
 
 ### Scénario 3 — Multi-tenant
 
-Ajouter une colonne `tenant_id` dans `users` et adapter :
+Ajouter `tenant_id` dans `users` et adapter :
 ```sql
-SELECT id, password_hash FROM users 
-WHERE username = ? AND tenant_id = ?
+SELECT id, password_hash FROM users WHERE username = ? AND tenant_id = ?
 ```
 
 ---
 
 ## 🧬 Dépendances
 
-**Aucune dépendance externe.** Le projet repose uniquement sur :
+**Aucune dépendance externe.** Uniquement :
 
 - **PHP natif** (`PDO`, `password_*`, `session_*`, `hash_equals`)
 - **MySQL** (InnoDB, utf8mb4)
@@ -450,10 +326,10 @@ Aucun Composer, aucun framework, aucun CDN. **Zéro dépendance = zéro CVE tran
 ## 🤝 Contribuer
 
 1. Fork le repo
-2. Créer une branche (`git checkout -b feat/ma-fonctionnalite`)
+2. Branche (`git checkout -b feat/ma-fonctionnalite`)
 3. Commit (`git commit -m 'feat: ajout de X'`)
 4. Push (`git push origin feat/ma-fonctionnalite`)
-5. Ouvrir une Pull Request
+5. Pull Request
 
 ### Convention de commit
 
@@ -470,7 +346,7 @@ chore: maintenance
 
 ## 📜 Licence
 
-Distribué sous **licence MIT**. Voir [`LICENSE`](LICENSE) pour plus d'informations.
+Distribué sous **licence MIT**. Voir [`LICENSE`](LICENSE).
 
 ---
 
@@ -479,6 +355,8 @@ Distribué sous **licence MIT**. Voir [`LICENSE`](LICENSE) pour plus d'informati
 **gunout**
 
 [![GitHub](https://img.shields.io/badge/GitHub-gunout-181717?style=for-the-badge&logo=github)](https://github.com/gunout)
+
+> Python & Automation · Web Development · Shell & Scripting · Veille & Data · Aerospace, maritime, real estate, health, public policy
 
 ---
 
