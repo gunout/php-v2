@@ -1,12 +1,14 @@
 <div align="center">
 
-<!-- Typing SVG animé -->
- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF10F0&center=true&vCenter=true&width=900&lines=%F0%9F%94%91+Login+s%C3%A9curis%C3%A9+PHP;8+correctifs+OWASP+int%C3%A9gr%C3%A9s;Anti-SQLi+%C2%B7+Anti-CSRF+%C2%B7+Anti-bruteforce;Rate-limit+%C2%B7+Timing-safe+%C2%B7+Session+timeout" alt="Typing SVG" />
+<!-- Typing SVG rose fluo -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=FF10F0&center=true&vCenter=true&width=900&lines=%F0%9F%94%91+Login+s%C3%A9curis%C3%A9+PHP;8+correctifs+OWASP+int%C3%A9gr%C3%A9s" alt="Typing SVG - Rose fluo" />
+<br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=900&lines=Anti-SQLi+%C2%B7+Anti-CSRF+%C2%B7+Anti-bruteforce;Rate-limit+%C2%B7+Timing-safe+%C2%B7+Session+timeout" alt="Typing SVG - Rose bonbon" />
 
 <br><br>
 
 <!-- Badges principaux -->
-<img src="https://img.shields.io/badge/version-2.0-000091?style=for-the-badge&logo=github&logoColor=white" alt="Version 2.0" />
+<img src="https://img.shields.io/badge/version-2.0-FF10F0?style=for-the-badge&logo=github&logoColor=white" alt="Version 2.0" />
 <img src="https://img.shields.io/badge/statut-production--ready-16a34a?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Production-ready" />
 <img src="https://img.shields.io/badge/licence-MIT-E1000F?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT" />
 <img src="https://img.shields.io/badge/PHP-7.4+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 7.4+" />
@@ -27,12 +29,12 @@
 <!-- Conformité -->
 <img src="https://img.shields.io/badge/OWASP-Top_10-16a34a?style=flat-square" alt="OWASP Top 10" />
 <img src="https://img.shields.io/badge/RGPD-conforme-16a34a?style=flat-square" alt="RGPD" />
-<img src="https://img.shields.io/badge/Zéro_dépendance-0_CVE-000091?style=flat-square&logo=checkmarx&logoColor=white" alt="Zéro dépendance" />
+<img src="https://img.shields.io/badge/Zéro_dépendance-0_CVE-FF10F0?style=flat-square&logo=checkmarx&logoColor=white" alt="Zéro dépendance" />
 
 <br><br>
 
-<!-- Banner animé -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=🔑%20php-v2&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%" alt="Banner" />
+<!-- Bannière rose fluo -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF10F0&height=120&section=header&text=🔑%20php-v2&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%" alt="Banner" />
 
 </div>
 
